@@ -1,9 +1,5 @@
-kind: pipeline
-type: exec
-name: default
-
-steps:
-  - name: greeting
+pipeline:
+  greeting:
     commands:
       - echo hello world
 
